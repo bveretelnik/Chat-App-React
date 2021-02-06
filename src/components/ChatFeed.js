@@ -40,7 +40,7 @@ export default function ChatFeed(props) {
             ) : (
               <TheirMessage
                 message={message}
-                lastMessage={message[lastMessageKey]}
+                lastMessage={messages[lastMessageKey]}
               />
             )}
           </div>

@@ -43,7 +43,7 @@ export default function MessageForm(props) {
         multiple={false}
         id="upload-button"
         style={{ display: "none" }}
-        onChange={handleUpload}
+        onChange={handleUpload.bind(this)}
       />
       <button type="submit" className="send-button">
         <SendOutlined className="send-icon" />
